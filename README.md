@@ -1,12 +1,16 @@
-<h1 align="center">🪟 Windows 11 Dotfiles</h1><p align="center">
+<h1 align="center"> Windows 11 Dotfiles</h1><p align="center">
   Personal configuration files for my Windows 11 setup.<br>
   Focused on customization, productivity, and making Windows slightly less painful.
-</p><hr><h2>📌 Overview</h2>
+</p><hr><h2> Overview</h2>
 <p>
 This repository contains my dotfiles and configuration setup for Windows 11.
 It includes system customization tools, launcher configs, terminal settings,
 and development environment tweaks.
-</p><hr><h2>⚙️ Tools Used</h2>
+<h2> Prerequisites</h2>
+<ul>
+  <li>JetBrains Mono Nerd Font</li>
+</ul>
+</p><hr><h2> Tools Used</h2>
 <p>Click to open installation guides:</p>
 <ul>
   <li><a href="https://github.com/amnweb/yasb">YASB</a> – Status bar customization</li>
@@ -15,7 +19,7 @@ and development environment tweaks.
   <li><a href="https://github.com/ramensoftware/windhawk">Windhawk</a> – Windows mods</li>
   <li><a href="https://github.com/Flow-Launcher/Flow.Launcher">Flow Launcher</a> – App launcher</li>
   <li><a href="https://github.com/microsoft/vscode">VS Code</a> – Code editor</li>
-</ul><hr><h2>🚀 Setup</h2><h3>1. Clone Repository</h3>
+</ul><hr><h2> Setup</h2><h3>1. Clone Repository</h3>
 <pre>
 git clone https://github.com/YummyYakuza/windows-11-dotfiles.git
 cd windows-11-dotfiles
@@ -27,8 +31,8 @@ Open the links in the <b>Tools Used</b> section and follow their official instal
   <li>Copy or symlink config files</li>
   <li>Restart apps after applying configs</li>
   <li>Install required fonts/themes</li>
-</ul><hr><h2>📸 Preview</h2><p align="center">
+</ul><hr><h2> Preview</h2><p align="center">
   <img src="screenshots/desktop.png" width="700"><br><br>
   <img src="screenshots/terminal.png" width="700">
-</p><!-- Add more images as needed --><hr><h2>📜 License</h2>
+</p><!-- Add more images as needed --><hr><h2> License</h2>
 <p>MIT License</p>
