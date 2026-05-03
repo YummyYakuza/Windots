@@ -1,0 +1,118 @@
+{
+  "$schema": "https://raw.githubusercontent.com/LGUG2Z/komorebi/v0.1.38/schema.json",
+  "app_specific_configuration_path": "$Env:USERPROFILE/applications.json",
+  "window_hiding_behaviour": "Cloak",
+  "window_handling_behaviour": "Sync",
+  "cross_monitor_move_behaviour": "Insert",
+  "window_container_behaviour": "Create",
+  "float_override": false,
+  "default_workspace_padding": 0,
+  "default_container_padding": 4,
+  "global_work_area_offset": {
+    "top": 3,
+    "left": 3,
+    "bottom": 6,
+    "right": 6
+  },
+  "border": true,
+  "border_implementation": "Windows",
+  "border_style": "System",
+  "border_width": 0,
+  "border_offset": -1,
+  "border_colours": {
+  "single": "#b4befe",
+  "stack": "#a6adc8",
+  "floating": "#cba6f7",
+  "monocle": "#b4befe",
+  "unfocused": "#585b70",
+  "unfocused_locked": "#45475a"
+},
+
+  "mouse_follows_focus": false,
+  "transparency": true,
+  "transparency_alpha": 200,
+  "transparency_ignore_rules": [
+    {
+      "kind": "Title",
+      "id": "YouTube",
+      "matching_strategy": "Contains"
+    }
+  ],
+
+  "animation": {
+    "enabled": true,
+    "duration": 400,
+    "fps": 100,
+    "style": {
+      "movement": "EaseOutBack",
+      "transparency": "EaseInSine"
+    }
+  },
+
+  
+
+  "unmanaged_window_operation_behaviour": "Op",
+  "remove_titlebar_applications": [
+    {
+      "kind": "Exe",
+      "id": "xxxchrome.exe",
+      "matching_strategy": "Equals"
+    }
+  ],
+
+  "ignore_rules": [
+    {
+      "kind": "Exe",
+      "id": "xxxTickTick.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "ChatGPT.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "SteelSeriesGGClient.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "GoogleDriveFS.exe",
+      "matching_strategy": "Equals"
+    },
+    {
+      "kind": "Exe",
+      "id": "FastKeys.exe",
+      "matching_strategy": "Equals"
+    },
+  ],
+
+  "monitors": [
+    {
+      "workspaces": [
+        {
+          "name": "1",
+          "layout": "BSP"
+        },
+        {
+          "name": "2",
+          "layout": "BSP"
+        },
+        {
+          "name": "3",
+          "layout": "Scrolling"
+        },
+        {
+          "name": "4",
+          "layout": "BSP",
+          "float_override": true
+        },
+        {
+          "name": "5",
+          "layout": "BSP"
+        }
+      ]
+    }
+  ]
+}

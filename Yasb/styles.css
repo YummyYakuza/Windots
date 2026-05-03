@@ -1,0 +1,1267 @@
+/*VARIABLES AND SOME DEFAULT SETTINGS*/
+:root {
+    --rosewater: #f5e0dc;
+    --flamingo: #f2cdcd;
+    --pink: #f5c2e7;
+    --mauve: #cba6f7;
+    --red: #f38ba8;
+    --maroon: #eba0ac;
+    --peach: #fab387;
+    --peachedit: #ecd093;
+    --peachedit2: #e9bb77;
+    --yellow: #f9e2af;
+    --green: #a6e3a1;
+    --teal: #94e2d5;
+    --sky: #89dceb;
+    --sapphire: #74c7ec;
+    --blue: #89b4fa;
+    --lavender: #b4befe;
+    --text: #cdd6f4;
+    --subtext1: #bac2de;
+    --subtext0: #a6adc8;
+    --overlay2: #9399b2;
+    --overlay1: #7f849c;
+    --overlay0: #6c7086;
+    --surface2: #585b70;
+    --surface1: #45475a;
+    --surface1: #282936;
+    --base: #1e1e2e;
+    --winbutton: #565178;
+    --icon: #b5c7d7;
+    --basetransparent: rgba(30, 30, 46, 0.6);
+    --mantle: rgba(24, 24, 37, 1);
+    --crust: rgba(17, 17, 27, 1);
+}
+* {
+    font-size: 12px;
+    color: var(--text);
+    font-weight: 600;
+    font-family: "JetBrainsMono NFP";
+    margin: 0;
+    padding: 0;
+}
+/*GENERAL CONFIGRATIONS*/
+.yasb-bar {
+    padding: 0;
+    margin: 0;
+    background-color: var(--base);
+}
+.widget {
+    padding: 0 4px;
+    margin: 0 1px;
+    border-radius: 12px;
+    border: 1px solid rgba(128, 128, 128, 0);
+}
+.widget .icon {
+    font-size: 18px;
+}
+.widget .label {
+    color: var(--text);
+}
+/*WIDGET*/
+.home-widget {
+    padding-bottom: 1px;
+}
+/*HOME WIDGET DROPDOWN*/
+.home-menu {
+    background-color: var(--mantle);
+    padding: 0;
+    margin-left: 0px;
+}
+.home-menu .menu-item {
+    padding: 6px 48px 7px 16px;
+    font-size: 12px;
+    font-family: "Segoe UI";
+    font-weight: 600;
+}
+.home-menu .menu-item:hover {
+    background-color: rgba(128, 130, 158, 0.15);
+    color: #fff;
+}
+.home-menu .separator {
+    max-height: 1px;
+    background-color: rgba(128, 130, 158, 0.3);
+}
+/*KOMOREBI WORKSPACES WIDGET*/
+.komorebi-workspaces .offline-status {
+    color: #cdd6f4;
+    font-size: 12px;
+    padding: 0 0 0 4px;
+    font-weight: 600;
+}
+.komorebi-workspaces .ws-btn {
+    border: none;
+    background-color: #6c7086;
+    margin: 0 3px;
+    height: 9px;
+    width: 9px;
+    border-radius: 4px;
+}
+.komorebi-workspaces .ws-btn:hover {
+    color: #cdd6f4;
+}
+.komorebi-workspaces .ws-btn.populated {
+    background-color: #b4befe;
+}
+.komorebi-workspaces .ws-btn.active {
+    background-color: #b4befe;
+    width: 36px;
+}
+
+.komorebi-layout-menu {
+    background-color: #1e1e2e;
+}
+/*WEATHER WIDGET*/
+.weather-widget {
+    padding: 0;
+    padding-left: -5;
+}
+.weather-widget .icon {
+    color: var(--yellow);
+    padding: 6px;
+}
+.weather-widget .label {
+    font-size: 14px;
+    font-family: Bahnschrift;
+}
+/*ACTIVE WINDOW WIDGET*/
+.active-window-widget .label {
+    font-size: 14px;
+    font-family: Bahnschrift;
+}
+.active-window-widget .icon {
+    padding-right: 6px;
+    border: none;
+}
+/*CLOCK - CALENDAR WIDGET*/
+.clock-widget .label {
+    font-size: 14px;
+    font-family: Bahnschrift;
+}
+/*CLOCK - CALENDAR WIDGET DROPDOWN*/
+/* CALENDAR WIDGET */
+.calendar {
+    background-color: rgba(17, 17, 27, 0.4);
+}
+.calendar .calendar-table,
+.calendar .calendar-table::item {
+    background-color: rgba(17, 17, 27, 0);
+    color: rgba(162, 177, 196, 0.85);
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    border: none;
+    outline: none;
+}
+.calendar .calendar-table::item:selected {
+    color: rgb(255, 255, 255);
+    background-color: #007acc;
+    border-radius: 10px;
+}
+.calendar .day-label {
+    margin-top: 20px;
+}
+.calendar .day-label,
+.calendar .month-label,
+.calendar .date-label,
+.calendar .week-label,
+.calendar .holiday-label {
+    font-family: "Segoe UI";
+    font-size: 16px;
+    color: #fff;
+    font-weight: 700;
+    min-width: 180px;
+    max-width: 180px;
+}
+.calendar .week-label,
+.calendar .holiday-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: rgba(162, 177, 196, 0.85);
+}
+.calendar .holiday-label {
+    color: rgba(162, 177, 196, 0.85);
+    font-weight: 700;
+}
+.calendar .month-label {
+    font-weight: normal;
+}
+.calendar .date-label {
+    font-size: 88px;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    margin-top: -20px;
+}
+/*DISK WIDGET*/
+.disk-widget {
+    padding: 0;
+}
+.disk-widget .icon {
+    color: var(--lavender);
+}
+/*DISK DROPDOWN*/
+.disk-group {
+    background-color: var(--mantle);
+}
+.disk-group-row {
+    min-width: 220px;
+    max-width: 220px;
+    max-height: 40px;
+    margin: 0;
+    padding: 0;
+    border-radius: 6px;
+    border: 1px solid rgba(128, 128, 128, 0);
+}
+.disk-group-row:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.disk-group-label-bar {
+    max-height: 8px;
+    border: 0px solid rgba(128, 128, 128, 0);
+    background-color: rgba(148, 226, 213, 0.3);
+    border-radius: 4px;
+}
+.disk-group-label-bar::chunk {
+    background-color: rgba(148, 226, 213, 1);
+    border-radius: 4px;
+}
+.disk-group-label {
+    font-size: 13px;
+}
+.disk-group-label-size {
+    font-size: 12px;
+    color: rgba(205, 214, 244, 0.5);
+}
+/* ================= */
+/* === WIFI WIDGET === */
+/* ================= */
+.wifi-widget .icon {
+    color: var(--lavender);
+}
+.wifi-widget .label {
+    font-size: 12px;
+    color: var(--subtext0);
+    font-weight: 700;
+    font-family: "JetBrainsMono NFP";
+    background: transparent;
+}
+
+.wifi-menu {
+    font-family: "JetBrainsMono NFP", "Segoe UI", sans-serif;
+    background-color: var(--crust);
+    min-height: 400px;
+    min-width: 400px;
+}
+
+.wifi-menu .progress-bar {
+    max-height: 2px;
+    background: var(--surface1);
+    border-radius: 4px;
+    margin: 6px;
+}
+
+.wifi-menu .progress-bar::chunk {
+    background-color: var(--og);
+}
+
+.wifi-menu .header {
+    font-family: "JetBrainsMono NFP", "Segoe UI", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 2px;
+    padding: 12px;
+    background-color: var(--mantle);
+    color: var(--og);
+    border-bottom: 1px solid var(--og);
+}
+
+.wifi-menu .error-message {
+    font-family: "JetBrainsMono NFP", "Segoe UI", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 8px;
+    background-color: var(--red);
+    color: var(--crust);
+}
+
+.wifi-menu .wifi-list {
+    background-color: var(--base);
+    margin: 0;
+}
+
+.wifi-menu .wifi-item {
+    min-height: 35px;
+    margin: 2px 6px;
+    border-radius: 6px;
+    padding: 4px 8px;
+}
+
+.wifi-menu .wifi-item:hover {
+    background-color: rgba(195, 159, 241, 0.1);
+}
+
+.wifi-menu .wifi-item[active="true"] {
+    background-color: rgba(195, 159, 241, 0.18);
+    font-size: 14px;
+    border-radius: 6px;
+    min-height: 80px;
+    border: 1.5px solid var(--og);
+}
+
+.wifi-menu .wifi-item .icon {
+    font-family: "Segoe Fluent Icons";
+    font-size: 26px;
+    margin-right: 10px;
+    color: var(--og);
+}
+
+.wifi-menu .wifi-item .name {
+    font-family: "JetBrainsMono NFP", "Segoe UI", sans-serif;
+    font-size: 14px;
+    margin-right: 10px;
+    color: var(--text);
+}
+
+.wifi-menu .wifi-item .password {
+    font-family: "JetBrainsMono NFP", "Segoe UI", sans-serif;
+    background-color: var(--crust);
+    font-size: 14px;
+    color: var(--subtext1);
+    padding: 2px;
+}
+
+.wifi-menu .wifi-item .status {
+    font-family: "JetBrainsMono NFP", "Segoe UI", sans-serif;
+    font-size: 14px;
+    color: var(--subtext0);
+}
+
+.wifi-menu .wifi-item .strength {
+    font-family: "JetBrainsMono NFP", "Segoe UI", sans-serif;
+    font-size: 14px;
+    color: var(--og);
+}
+
+.wifi-menu .wifi-item .controls-container {
+    padding-top: 8px;
+}
+
+.wifi-menu .wifi-item .connect {
+    padding: 4px 15px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-family: "JetBrainsMono NFP", "Segoe UI", sans-serif;
+    font-weight: 700;
+}
+
+.wifi-menu .wifi-item .connect:active {
+    background-color: var(--crust);
+    color: var(--og);
+}
+
+.wifi-menu .wifi-item .connect:active:hover {
+    background-color: var(--mauve);
+    color: var(--surface0);
+}
+
+.wifi-menu .footer {
+    padding: 12px;
+    margin-top: 2px;
+    background-color: var(--mantle);
+    border-top: 1px solid var(--og);
+    border-radius: 0 0 8px 8px;
+}
+
+.wifi-menu .footer .settings-button {
+    font-family: "JetBrainsMono NFP", "Segoe UI", sans-serif;
+    background-color: transparent;
+    border: none;
+    padding: 0 2px;
+    min-width: 26px;
+    min-height: 26px;
+    color: var(--og);
+    border-radius: 4px;
+}
+
+.wifi-menu .footer .settings-button:hover {
+    background-color: var(--og);
+    color: var(--surface0);
+}
+
+.wifi-menu .footer .refresh-icon {
+    font-family: "Segoe Fluent Icons";
+    background-color: transparent;
+    border: none;
+    min-width: 26px;
+    min-height: 26px;
+    color: var(--og);
+    border-radius: 4px;
+}
+
+.wifi-menu .footer .refresh-icon:hover {
+    background-color: var(--og);
+    color: var(--surface0);
+}
+
+.context-menu {
+    background: var(--base);
+    border-radius: 4px;
+    border: 1px solid var(--surface1);
+    padding: 4px;
+}
+
+.context-menu .menu-checkbox {
+    border-radius: 3px;
+    color: var(--text);
+}
+
+.context-menu .menu-checkbox .checkbox {
+    margin: 2px;
+}
+
+.context-menu::item {
+    font-size: 12px;
+    color: var(--text);
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+    margin: 2px;
+}
+
+.context-menu ::item :selected,
+.context-menu .menu-checkbox:hover,
+.context-menu .menu-checkbox .checkbox:hover {
+    background: var(--og);
+    color: var(--surface0);
+}
+/* ==================== */
+/* === MEMORY WIDGET === */
+/* ==================== */
+.memory-widget .icon {
+    color: var(--lavender);
+}
+
+.memory-widget .label {
+    font-size: 12px;
+    color: var(--subtext0);
+    font-weight: 700;
+    font-family: "JetBrainsMono NFP";
+    background: transparent;
+}
+
+/* Memory Popup Styling */
+.memory-popup {
+    background-color: var(--lavender);
+    min-width: 380px;
+    border-radius: 8px;
+}
+
+.memory-popup .header {
+    background: var(--mantle);
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--surface1);
+}
+
+.memory-popup .header .text {
+    font-size: 14px;
+    font-family: "JetBrainsMono NFP", "Segoe UI";
+    color: var(--og);
+    font-weight: 700;
+}
+
+.memory-popup .header .pin-btn {
+    font-size: 13px;
+    background: transparent;
+    font-family: "Segoe Fluent Icons";
+    border: none;
+    padding: 4px 6px;
+    color: var(--subtext1);
+    cursor: pointer;
+}
+
+.memory-popup .header .pin-btn:hover {
+    color: var(--text);
+}
+
+.memory-popup .header .pin-btn.pinned {
+    color: var(--og);
+}
+
+/* Graph area */
+.memory-popup .graph-container {
+    background: var(--base);
+    min-height: 64px;
+    padding: 8px 16px;
+}
+
+.memory-popup .memory-graph {
+    color: var(--blue);
+    background: rgba(255, 255, 255, 0.02);
+    border-radius: 6px;
+}
+
+.memory-popup .memory-graph-grid {
+    color: rgba(255, 255, 255, 0.05);
+}
+
+.memory-popup .graph-title {
+    font-size: 11px;
+    color: var(--subtext0);
+    font-family: "JetBrainsMono NFP", "Segoe UI";
+    padding: 6px 16px 4px 16px;
+    font-weight: 600;
+}
+
+/* Stats grid */
+.memory-popup .stats {
+    background: var(--base);
+    padding: 12px 16px 16px 16px;
+    border-top: 1px solid var(--surface1);
+}
+
+.memory-popup .stats .stat-item {
+    background-color: var(--surface0);
+    border: 1px solid var(--surface1);
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin: 6px 4px;
+}
+
+.memory-popup .stats .stat-label {
+    font-size: 11px;
+    color: var(--subtext1);
+    font-family: "JetBrainsMono NFP", "Segoe UI";
+    font-weight: 400;
+    padding: 4px 0 2px 0;
+}
+
+.memory-popup .stats .stat-value {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--text);
+    font-family: "JetBrainsMono NFP", "Segoe UI";
+    padding: 2px 0;
+}
+/* ================= */
+/* === System Tray === */
+/* ================= */
+.systray {
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.systray .widget-container {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.systray .unpinned-container {
+    background-color: transparent;
+    padding: 0;
+    margin-left: 5px;
+}
+
+.systray .button {
+    border: none;
+    padding: 3px 0;
+    background: transparent;
+    color: var(--text);
+    margin: 0;
+}
+
+.systray .button:hover {
+    background: rgba(195, 159, 241, 0.7);
+    border-radius: 4px;
+}
+
+.systray .button[dragging="true"] {
+    background: var(--sky);
+    border: 1.5px solid var(--peach);
+    color: var(--surface0);
+}
+
+.systray .unpinned-visibility-btn {
+    background: var(--mantle);
+    border: none;
+    color: var(--subtext0);
+    margin: 4px;
+    padding: 1px;
+    font-size: 17px;
+}
+
+.systray .unpinned-visibility-btn:hover {
+    color: var(--og);
+}
+
+.systray .unpinned-visibility-btn.active {
+    background: var(--surface0);
+    color: var(--blue);
+    border-color: var(--surface1);
+}
+/* ==================== */
+/* === VOLUME WIDGET === */
+/* ==================== */
+.volume-widget .icon {
+    color: var(--lavender);
+}
+
+.volume-widget .label {
+    font-size: 12px;
+    color: var(--subtext0);
+    font-weight: 700;
+    font-family: "JetBrainsMono NFP";
+    background: transparent;
+}
+
+.audio-menu {
+    background: rgb(24, 24, 37);
+    border: 1.5px solid rgba(69, 71, 90, 0.5);
+    border-radius: 6px;
+    padding: 8px;
+    min-width: 220px;
+}
+
+.audio-menu .system-volume-container .volume-slider {
+    border: none;
+    margin-top: 15px;
+}
+
+.audio-menu .audio-container .device {
+    font-size: 10px;
+    background-color: transparent;
+    border: none;
+    padding: 6px 8px 6px 4px;
+    margin: 2px 0;
+    border-radius: 4px;
+}
+
+.audio-menu .audio-container .device.selected {
+    background-color: rgba(211, 133, 188, 0.264);
+}
+
+.audio-menu .audio-container .device.selected:hover {
+    background-color: rgba(211, 133, 188, 0.364);
+}
+
+.audio-menu .audio-container .device:hover {
+    background-color: rgba(124, 88, 113, 0.264);
+}
+
+/* Toggle button for application volumes (if is enabled) */
+.audio-menu .toggle-apps {
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    margin: 0;
+    min-height: 15px;
+    min-width: 15px;
+    border-radius: 6px;
+}
+.audio-menu .toggle-apps.expanded {
+    background-color: transparent;
+}
+.audio-menu .toggle-apps:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Container for application volumes (if is enabled) */
+.audio-menu .apps-container {
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.062);
+}
+.audio-menu .apps-container .app-volume .app-icon-container {
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 6px;
+    margin-right: 5px;
+}
+.audio-menu .apps-container .app-volume .app-slider {
+    min-height: 40px;
+    max-height: 40px;
+}
+.audio-menu .apps-container .app-volume .app-icon-container:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+/* ========================= */
+/* === MEDIA WIDGET      === */
+/* ========================= */
+.media-widget {
+    background: rgba(0, 0, 0, 0);
+    color: var(--text);
+    padding: 0;
+    max-width: 300px;
+    margin: 3px 0;
+    border-style: solid;
+}
+.media-widget .label {
+    font-size: 12px;
+    font-weight: 700;
+    background-color: transparent;
+    margin-left: 6px;
+    margin-right: 4px;
+    letter-spacing: -1px;
+}
+.media-widget .btn {
+    background: transparent;
+    color: var(--og);
+    font-family: "Segoe Fluent Icons";
+    border: 1px solid var(--lavender); /* og accent */
+    padding: 0 2px;
+    margin: 2px 0 2px 3px;
+    color: var(--og);
+    border-radius: 4px;
+    font-size: 10px;
+}
+.media-widget .btn:hover {
+    color: var(--surface0);
+    background-color: var(--og);
+    border-color: var(--lavender);
+}
+.media-widget .btn.disabled,
+.media-widget .btn.disabled:hover {
+    color: var(--overlay0);
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(195, 159, 241, 0.15);
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.media-menu {
+    min-width: 420px;
+    max-width: 420px;
+    background: rgb(24, 24, 37);
+    border: 1.5px solid rgba(69, 71, 90, 0.5);
+    border-radius: 6px;
+    padding: 16px 20px 12px 20px;
+    color: var(--text);
+}
+
+.media-menu .title,
+.media-menu .artist,
+.media-menu .source {
+    font-size: 14px;
+    font-weight: 600;
+    margin-left: 10px;
+    font-family:
+        "JetBrainsMono NFP", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.media-menu .title {
+    color: var(--og);
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+
+.media-menu .artist {
+    font-size: 13px;
+    color: var(--overlay1);
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+
+.media-menu .source {
+    font-size: 11px;
+    color: var(--surface0);
+    font-weight: normal;
+    border-radius: 3px;
+    background-color: var(--og);
+    color: #fff;
+    padding: 2px 6px;
+    margin-bottom: 8px;
+    margin-left: 0;
+    letter-spacing: 0.5px;
+}
+
+/* The source class name is the same as what you see in the media widget; just replace spaces with dashes and convert it to lowercase.
+Example: "Windows Media" becomes "windows-media" */
+.media-menu .source.firefox {
+    background-color: #ff583b;
+    color: #ffffff;
+}
+.media-menu .source.spotify {
+    background-color: #199143;
+    color: #ffffff;
+}
+.media-menu .source.edge,
+.media-menu .source.windows-media {
+    background-color: #0078d4;
+    color: #ffffff;
+}
+
+.media-menu .btn {
+    font-family: "Segoe Fluent Icons";
+    font-size: 15px;
+    font-weight: 500;
+    margin: 6px 2px 0px 2px;
+    min-width: 32px;
+    max-width: 32px;
+    min-height: 28px;
+    max-height: 28px;
+    border-radius: 8px;
+    background: transparent;
+    color: var(--og);
+    border: 1px solid var(--og);
+}
+
+.media-menu .btn.prev {
+    margin-left: 8px;
+}
+
+.media-menu .btn:hover {
+    color: var(--surface0);
+    background-color: var(--og);
+    border-color: var(--og);
+}
+
+.media-menu .btn.play {
+    background-color: var(--og);
+    color: var(--surface0);
+    font-size: 17px;
+    border-color: var(--og);
+}
+
+.media-menu .btn.disabled,
+.media-menu .btn.disabled:hover {
+    color: var(--overlay0);
+    background-color: rgba(0, 0, 0, 0);
+    border-color: rgba(195, 159, 241, 0.15);
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+.media-menu .playback-time {
+    font-size: 13px;
+    font-family:
+        "JetBrainsMono NFP", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--overlay1);
+    margin-top: 20px;
+    min-width: 100px;
+}
+
+.media-menu .progress-slider {
+    height: 10px;
+    margin: 5px 4px;
+    border-radius: 3px;
+}
+
+.media-menu .progress-slider::groove {
+    background: transparent;
+    height: 2px;
+    border-radius: 3px;
+    background: rgba(195, 159, 241, 0.3);
+}
+
+.media-menu .progress-slider::groove:hover {
+    background: rgba(195, 159, 241, 0.5);
+    height: 6px;
+    border-radius: 3px;
+}
+
+.media-menu .progress-slider::sub-page {
+    background: var(--og);
+    border-radius: 3px;
+    height: 4px;
+}
+
+.media-menu .app-volume-container {
+    background-color: rgba(2, 1, 3, 0.07); /* catppuccin mocha og accent */
+    padding: 8px 6px;
+    border-radius: 16px;
+    margin-left: 10px;
+}
+.media-menu .app-volume-container .volume-slider::groove {
+    background: rgba(88, 70, 110, 0.18); /* og accent */
+    width: 2px;
+    border-radius: 3px;
+}
+.media-menu .app-volume-container .volume-slider::add-page {
+    background: var(--og);
+    border-radius: 3px;
+}
+.media-menu .app-volume-container .volume-slider::groove:hover {
+    background: rgba(18, 4, 35, 0.3); /* og accent */
+    width: 6px;
+    border-radius: 3px;
+}
+.media-menu .app-volume-container .volume-slider::sub-page {
+    background: var(--overlay0);
+    border-radius: 3px;
+}
+.media-menu .app-volume-container .mute-button,
+.media-menu .app-volume-container .unmute-button {
+    font-size: 16px;
+    color: var(--og);
+    font-family: "Segoe Fluent Icons";
+    margin-top: 4px;
+}
+.media-menu .app-volume-container .unmute-button {
+    color: var(--overlay1);
+}
+
+/*WALLPAPERS WIDGET*/
+.wallpapers-widget {
+    padding: 0;
+}
+.wallpapers-widget .icon {
+    color: var(--lavender);
+}
+/*WALLPAPERS GALLERY*/
+.wallpapers-gallery-window {
+    background-color: var(--mantle);
+    border: 0;
+    margin: 0;
+}
+.wallpapers-gallery-buttons {
+    font-size: 12px;
+    font-family: "Bahnschrift";
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: none;
+    font-size: 14px;
+    padding: 8px 0;
+    border-radius: 8px;
+    margin: 0 8px 8px 8px;
+    width: 600px;
+}
+.wallpapers-gallery-buttons:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+.wallpapers-gallery-image {
+    border: 4px solid transparent;
+    border-radius: 10px;
+}
+.wallpapers-gallery-image:hover {
+    border: 4px solid rgb(66, 68, 83);
+}
+.wallpapers-gallery-image.focused {
+    border: 4px solid #89b4fa;
+}
+/*POWER WIDGET*/
+.power-menu-widget {
+    padding-left: 0;
+}
+.power-menu-widget .label {
+    color: var(--red);
+    font-size: 16px;
+}
+/*POWER MENU POPUP*/
+.uptime {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: rgba(191, 202, 219, 0.726);
+    font-weight: 600;
+    font-family: "Bahnschrift";
+}
+.power-menu-popup .button {
+    padding: 0;
+    width: 160px;
+    height: 240px;
+    border-radius: 4px;
+    background-color: rgba(41, 42, 58, 0.75);
+    font-family: "Bahnscrift";
+    color: white;
+    border: 4px solid rgba(255, 255, 255, 0);
+}
+.power-menu-popup .button.hover {
+    background-color: rgb(55, 56, 75);
+    border: 4px solid rgb(55, 56, 75);
+}
+.power-menu-popup .button .label {
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Bahnschrift";
+}
+.power-menu-popup .button .icon {
+    font-size: 64px;
+    padding-top: 54px;
+    color: rgba(255, 255, 255, 0.25);
+}
+.power-menu-popup .button.cancel .icon {
+    color: rgba(243, 139, 168, 0.55);
+}
+.power-menu-popup .button.cancel .label {
+    color: rgba(243, 139, 168, 0.95);
+}
+.cava-widget {
+    padding: 0;
+    margin-right: 0;
+}
+/*GITHUB WIDGET*/
+.github-widget {
+    padding: 0;
+}
+.github-widget .icon {
+    font-size: 16px;
+}
+/*GITHUB DROPDOWN*/
+.github-menu {
+    background-color: rgba(17, 17, 27, 0.2);
+    max-height: 500px;
+    min-height: 500px;
+    min-width: 420px;
+}
+.github-menu .header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Segoe UI";
+    padding: 8px;
+    color: white;
+    background-color: rgba(17, 17, 27, 0.75);
+}
+.github-menu .footer {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    font-size: 12px;
+    padding: 4px 8px 6px 8px;
+    font-family: "Segoe UI";
+    color: #9399b2;
+    background-color: rgba(17, 17, 27, 0.75);
+}
+.github-menu .contents {
+    background-color: rgba(17, 17, 27, 0.2);
+}
+.github-menu .contents .item {
+    min-height: 40px;
+    padding: 6px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.075);
+}
+.github-menu .contents .item:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+}
+.github-menu .contents .item .title,
+.github-menu .contents .item .description {
+    color: #9399b2;
+    font-family: Segoe UI;
+}
+.github-menu .contents .item .title {
+    font-size: 14px;
+    font-weight: 600;
+}
+.github-menu .contents .item .description {
+    font-size: 12px;
+    font-weight: 500;
+}
+.github-menu .contents .item.new .title,
+.github-menu .contents .item.new .description {
+    color: #ffffff;
+}
+.github-menu .contents .item .icon {
+    font-size: 16px;
+    padding-right: 0;
+    padding-left: 8px;
+    padding-right: 4px;
+    color: #9399b2;
+}
+.github-menu .contents .item.new .icon {
+    color: #3fb950;
+}
+.komorebi-layout-menu {
+    background-color: rgba(17, 17, 27, 0.4);
+}
+.komorebi-layout-menu .menu-item {
+    padding: 8px 16px;
+    font-size: 12px;
+    color: #cdd6f4;
+    font-weight: 600;
+}
+.komorebi-layout-menu .menu-item-icon {
+    color: #cdd6f4;
+    font-size: 16px;
+}
+.komorebi-layout-menu .menu-item-text {
+    font-family: "Segoe UI";
+    padding-left: 4px;
+    font-size: 12px;
+}
+.komorebi-layout-menu .menu-item:hover {
+    background-color: var(--base);
+    color: #fff;
+}
+.komorebi-layout-menu .separator {
+    max-height: 1px;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+.weather-widget {
+}
+.weather-widget.your_class {
+} /* If you are using class_name option */
+.weather-widget .widget-container {
+}
+.weather-widget .label {
+}
+.weather-widget .label.alt {
+}
+.weather-widget .icon {
+}
+
+
+
+/* Weather card style */
+.weather-card {
+    background-color: rgba(17, 17, 27, 0.5);
+}
+.weather-card-today {
+    border: 1px solid #282936;
+    border-radius: 8px;
+    background-color: rgba(17, 17, 27, 0.2);
+}
+.weather-card-today .label {
+    font-size: 12px;
+}
+.weather-card-today .label.location {
+    font-size: 24px;
+    font-weight: 700;
+}
+.weather-card-today .label.alert {
+    font-size: 12px;
+    font-weight: 700;
+    background-color: rgba(247, 199, 42, 0.05);
+    border: 1px solid rgba(247, 209, 42, 0.1);
+    color: rgba(196, 181, 162, 0.85);
+    border-radius: 6px;
+    padding: 5px 0;
+}
+.weather-card-day {
+    border: 1px solid #45475a;
+    border-radius: 8px;
+    background-color: rgba(17, 17, 27, 0.2);
+}
+
+.weather-card-day.active {
+    background-color: rgba(40, 40, 60, 0.6);
+    border: 1px solid rgba(50, 50, 75, 1);
+}
+
+.weather-card-day:hover {
+    background-color: rgba(40, 40, 60, 0.6);
+}
+
+.weather-card-day .label {
+    font-size: 12px;
+}
+
+.weather-card .hourly-container {
+    border: 1px solid #282936;
+    background-color: #3c5fa0;
+    border-radius: 8px;
+    min-height: 150px;
+}
+
+.weather-card .hourly-data {
+    /* font-family: 'Segoe UI';*/
+    /* color: cyan;*/ /* <- Font color */
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.weather-card .hourly-data.temperature {
+    background-color: #fae93f; /* Temperature curve & line color */
+}
+
+.weather-card .hourly-data.rain {
+    background-color: #4a90e2; /* Rain curve & line color */
+}
+
+.weather-card .hourly-data.snow {
+    background-color: #a0c4ff; /* Snow curve & line color */
+}
+
+.weather-card .hourly-data .hourly-rain-animation {
+    color: rgba(150, 200, 255, 40); /* Rain color */
+    background-color: rgba(0, 0, 0, 0.1); /* Rain background color */
+}
+
+.weather-card .hourly-data .hourly-snow-animation {
+    color: rgba(255, 255, 255, 150); /* Snow color */
+    background-color: rgba(0, 0, 0, 0.1); /* Snow background color */
+}
+
+/* Hourly forecast toggle buttons */
+.weather-card .hourly-data-buttons {
+    margin: 0px;
+}
+.weather-card .hourly-data-button {
+    border-radius: 4px;
+    min-height: 24px;
+    min-width: 24px;
+    max-width: 24px;
+    max-height: 24px;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.3);
+    border: 1px solid transparent;
+}
+.weather-card .hourly-data-button.active {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+glazewm-workspaces {
+    margin: 0;
+}
+
+.glazewm-workspaces .ws-btn {
+    font-size: 18px;
+    background-color: transparent;
+    border: none;
+    padding: 0 2px 0 2px;
+    margin: 0;
+    color: #95a0ad;
+}
+
+.glazewm-workspaces .ws-btn.active_populated {
+    color: var(--mauve);
+}
+
+.glazewm-workspaces .ws-btn.active_empty {
+    color: #89b4fa;
+}
+
+.glazewm-workspaces .ws-btn.populated {
+    color: #74c7ec;
+}
+
+.glazewm-workspaces .ws-btn.empty {
+    color: #95a0ad;
+}
+
+.glazewm-workspaces .ws-btn:hover,
+.glazewm-workspaces .ws-btn.populated:hover,
+.glazewm-workspaces .ws-btn.empty:hover {
+    color: #89b4fa;
+}
+
+.glazewm-tiling-direction {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+}
+
+.glazewm-tiling-direction .btn {
+    font-size: 18px;
+    width: 14px;
+    padding: 0 4px 0 4px;
+    color: #cdd6f4;
+    border: none;
+}
+
+.glazewm-tiling-direction .btn:hover {
+    background-color: #727272;
+}
+
+.battery-widget .icon {
+    color: var(--lavender);
+}
+.notification-widget .icon {
+    color: var(--lavender);
+}
