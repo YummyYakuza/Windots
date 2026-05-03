@@ -17,7 +17,7 @@ and development environment tweaks.
   <li><a href="https://github.com/microsoft/vscode">VS Code</a> – Code editor</li>
 </ul><hr><h2>🚀 Setup</h2><h3>1. Clone Repository</h3>
 <pre>
-git clone https://github.com/your-username/windows-11-dotfiles.git
+git clone https://github.com/YummyYakuza/windows-11-dotfiles.git
 cd windows-11-dotfiles
 </pre><h3>2. Install Tools</h3>
 <p>
