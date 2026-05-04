@@ -19,6 +19,7 @@ and development environment tweaks.
   <li><a href="https://github.com/ramensoftware/windhawk">Windhawk</a> – Windows mods</li>
   <li><a href="https://github.com/Flow-Launcher/Flow.Launcher">Flow Launcher</a> – App launcher</li>
   <li><a href="https://github.com/microsoft/vscode">VS Code</a> – Code editor</li>
+  <li><a href="https://github.com/karlstav/cava">Cava</a> – Audio visualizer</li>
 </ul><hr><h2> Setup</h2><h3>1. Clone Repository</h3>
 <pre>
 git clone https://github.com/YummyYakuza/windows-11-dotfiles.git
@@ -32,7 +33,9 @@ Open the links in the <b>Tools Used</b> section and follow their official instal
   <li>Restart apps after applying configs</li>
   <li>Install required fonts/themes</li>
 </ul><hr><h2> Preview</h2><p align="center">
-  <img src="screenshots/desktop.png" width="700"><br><br>
-  <img src="screenshots/terminal.png" width="700">
-</p><!-- Add more images as needed --><hr><h2> License</h2>
+  <img src="screenshots/Screenshot01.jpg" width="700"><br><br>
+  <img src="screenshots/Screenshot02.jpg" width="700"><br><br>
+  <img src="screenshots/Screenshot03.jpg" width="700"><br><br>
+  <img src="screenshots/Screenshot04.jpg" width="700">
+</p><hr><h2> License</h2>
 <p>MIT License</p>
