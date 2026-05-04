@@ -1,0 +1,104 @@
+{
+  "explorer.confirmDelete": false,
+  "editor.mouseWheelZoom": true,
+  "workbench.activityBar.location": "top",
+  "workbench.sideBar.location": "right",
+  "window.commandCenter": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "editor.fontFamily": "Cascadia Code NF",
+  "editor.inlineSuggest.enabled": true,
+  "editor.fontLigatures": "'calt', 'ss01'",
+  "editor.stickyScroll.enabled": false,
+  "terminal.integrated.fontFamily": "Cascadia Code PL",
+  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.fontSize": 15,
+  "vscode-pets.disableEffects": true,
+  "vscode-pets.theme": "autumn",
+  "workbench.startupEditor": "none",
+  "livePreview.notifyOnOpenLooseFile": false,
+  "workbench.editor.enablePreview": false,
+  "editor.wordWrap": "on",
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  
+  "editor.fontSize": 15,
+
+"editor.tokenColorCustomizations": {
+        "textMateRules": [
+        {
+            "scope": [
+            "comment",
+            "entity.name.type.class", //class names
+            "entity.other.attribute-name", //HTML Attributes
+            "keyword", //import, export, return…
+            "constant", //String, Number, Boolean…, this, super
+            "storage.modifier", //static keyword
+            "storage.type.class.js", //class keyword
+            ],
+            "settings": {
+            "fontStyle": "italic"
+            }
+        },
+        ]
+    },
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "expand",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#1e1e2e"
+  },
+  "terminal.integrated.gpuAcceleration": "off",
+  "window.systemColorTheme": "auto",
+  "window.autoDetectColorScheme": true,
+  "window.titleBarStyle": "custom",
+  "workbench.preferredHighContrastColorTheme": "Catppuccin Mocha",
+  "workbench.preferredLightColorTheme": "Catppuccin Mocha",
+  "workbench.preferredDarkColorTheme": "Catppuccin Mocha",
+  "editor.minimap.enabled": false,
+  "window.sidebar.defaultPanelWidth": 300,
+  "workbench.iconTheme": "catppuccin-mocha",
+  "vscode_vibrancy.theme": "Catppuccin Mocha",
+  "vscode_vibrancy.type": "acrylic",
+  "vscode_vibrancy.opacity": 0.1,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": true,
+    "markdown": false,
+    "scminput": false
+  },
+  "breadcrumbs.enabled": false,
+  "workbench.editor.showTabs": "none",
+  "window.menuBarVisibility": "compact",
+  "extensions.experimental.affinity": {
+    "asvetliakov.vscode-neovim": 1
+  },
+  "security.allowedUNCHosts": [
+    "wsl.localhost"
+  ],
+  "update.showReleaseNotes": false,
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "window.autoDetectHighContrast": false,
+  "vim.handleKeys": {
+  "<C-g>": false,
+  "<C-p>": false,
+  "<C-b>": false,
+  "<C-A-b>": false,
+  "<C-w>": false,
+  "<C-j>": false,
+  "<C-x>": false,
+  "<C-k>": false,
+  "<C-c>": false,
+  "<C-f>": false,
+},
+"geminicodeassist.project": "independent-ethos-2j5r3",
+"files.exclude": {
+  "**/.DS_Store": false,
+  "**/.git": false,
+  "**/.hg": false,
+  "**/.svn": false,
+  "**/Thumbs.db": false
+},
+"diffEditor.ignoreTrimWhitespace": false,
+
+}
+
