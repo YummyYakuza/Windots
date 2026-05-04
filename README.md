@@ -10,7 +10,7 @@ and development environment tweaks.
 <ul>
   <li>JetBrains Mono Nerd Font</li>
 </ul>
-</p><hr><h2>Toola Used</h2>
+</p><hr><h2>Tools Used</h2>
 
 <ul>
   <li><b>OS:</b> <a href="https://www.microsoft.com/windows/windows-11">Windows 11</a>  <a href="https://learn.microsoft.com/en-us/windows/wsl/">WSL2</a> </li>
@@ -46,7 +46,7 @@ Cherry-pick what you need. Backup before applying.
 <p><b>NOTE:</b> Requires a Nerd Font (JetBrainsMono Nerd Font recommended).</p>
 <ul>
   <li>Install <a href="https://github.com/amnweb/yasb/releases">YASB</a></li>
-  <li><a href="yasb/"><code>yasb/</code></a></li>
+  <li><a href="Yasb/"><code>Yasb/</code></a></li>
 </ul>
 </details>
 
