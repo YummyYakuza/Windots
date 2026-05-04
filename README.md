@@ -55,7 +55,7 @@ Cherry-pick what you need. Backup before applying.
 <br>
 <ul>
   <li>Install <a href="https://github.com/microsoft/terminal">Windows Terminal</a></li>
-  <li><a href="Windiws-Terminal/settings.json"><code>.config/terminal/settings.json</code></a></li>
+  <li><a href="Windows-Terminal/settings.json"><code>Windows-Terminal/settings.json</code></a></li>
 </ul>
 </details>
 
@@ -94,9 +94,8 @@ Cherry-pick what you need. Backup before applying.
 
 
 <ul>
-<li>Install <a href="[https://github.com/LGUG2Z/komorebi/releases](https://github.com/LGUG2Z/komorebi/releases)">Komorebi</a></li>
-<li><a href="Komorebi/"><code>komorebi.json</code></a> (Main config)</li>
-<li><a href="applications.yaml"><code>applications.yaml</code></a> (App-specific rules)</li>
+<li>Install <a href="https://github.com/LGUG2Z/komorebi/releases">Komorebi</a></li>
+<li><a href="Komorebi/"><code>Komorebi/</code></a> (Main config)</li>
 </ul>
 </details>
 
@@ -105,7 +104,8 @@ Cherry-pick what you need. Backup before applying.
 <br>
 <ul>
   <li>Install <a href="https://www.flowlauncher.com">Flow Launcher</a></li>
-  <li><a href="FlowLauncher/"><code>.config/FlowLauncher/settings.json</code></a></li>
+  <li><a href="FlowLauncher/"><code>FlowLauncher/
+  </code></a></li>
 </ul>
 </details>
 
@@ -121,7 +121,7 @@ Cherry-pick what you need. Backup before applying.
       <li>Taskbar Styler</li>
     </ul>
   </li>
-  <li><a href="windhawk/"><code>.config/windhawk/</code></a></li>
+  <li><a href="windhawk/"><code>windhawk/</code></a></li>
   <li>Paste configs via: <b>Mod → Advanced → Mod Settings → Load</b></li>
 </ul>
 </details>
