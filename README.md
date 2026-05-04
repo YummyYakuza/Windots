@@ -51,7 +51,7 @@ Cherry-pick what you need. Backup before applying.
 </details>
 
 <details>
-<summary><b>&gt;_ Windows Terminal</b></summary>
+<summary><b> Windows Terminal</b></summary>
 <br>
 <ul>
   <li>Install <a href="https://github.com/microsoft/terminal">Windows Terminal</a></li>
@@ -64,7 +64,7 @@ Cherry-pick what you need. Backup before applying.
 <br>
 <ul>
   <li>Install <a href="https://learn.microsoft.com/en-us/powershell/scripting/install/install-powershell">PowerShell</a></li>
-  <li><a href="WindowsPowershell/Microsoft.PowerShell_profile.ps1"><code>.config/WindowsPowershell/Microsoft.PowerShell_profile.ps1</code></a></li>
+  <li><a href="WindowsPowershell/Microsoft.PowerShell_profile.ps1"><code>WindowsPowershell/Microsoft.PowerShell_profile.ps1</code></a></li>
 </ul>
 </details>
 
@@ -73,7 +73,7 @@ Cherry-pick what you need. Backup before applying.
 <br>
 <p>Available via WSL2 (Ubuntu).</p>
 <ul>
-  <li><a href="zsh/.zshrc"><code>.config/zsh/.zshrc</code></a></li>
+  <li><a href="zsh/.zshrc"><code>zsh/.zshrc</code></a></li>
 </ul>
 </details>
 
@@ -84,7 +84,7 @@ Cherry-pick what you need. Backup before applying.
   <li>Install:
     <pre>winget install JanDeDobbeleer.OhMyPosh -s winget</pre>
   </li>
-  <li><a href="ohmyposh/theme.toml"><code>.config/ohmyposh/theme.toml</code></a></li>
+  <li><a href="ohmyposh/theme.toml"><code>ohmyposh/theme.toml</code></a></li>
   <li>Theme init is already included in the PowerShell profile.</li>
 </ul>
 </details>
@@ -95,7 +95,7 @@ Cherry-pick what you need. Backup before applying.
 
 <ul>
 <li>Install <a href="https://github.com/LGUG2Z/komorebi/releases">Komorebi</a></li>
-<li><a href="Komorebi/"><code>Komorebi/</code></a> (Main config)</li>
+<li><a href="Komorebi/"><code>Komorebi/</code></a></li>
 </ul>
 </details>
 
@@ -133,7 +133,7 @@ Cherry-pick what you need. Backup before applying.
   <li>Install:
     <pre>winget install fastfetch</pre>
   </li>
-  <li><a href="fastfetch/config.jsonc"><code>.config/fastfetch/config.jsonc</code></a></li>
+  <li><a href="fastfetch/config.jsonc"><code>fastfetch/config.jsonc</code></a></li>
 </ul>
 </details>
 <details>
@@ -141,7 +141,7 @@ Cherry-pick what you need. Backup before applying.
 <br>
 <ul>
   <li>Install <a href="https://code.visualstudio.com/download">VS Code</a></li>
-  <li><a href="Vs-Code/settings.json"><code>.config/vscode/settings.json</code></a></li>
+  <li><a href="Vs-Code/settings.json"><code>Vs-Code/settings.json</code></a></li>
 </ul>
 </details>
 
