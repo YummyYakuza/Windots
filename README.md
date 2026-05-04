@@ -78,21 +78,7 @@ Cherry-pick what you need. Backup before applying.
 </details>
 
 <details>
-<summary><b> Oh My Posh</b></summary>
-<br>
-<ul>
-  <li>Install:
-    <pre>winget install JanDeDobbeleer.OhMyPosh -s winget</pre>
-  </li>
-  <li><a href="ohmyposh/theme.toml"><code>ohmyposh/theme.toml</code></a></li>
-  <li>Theme init is already included in the PowerShell profile.</li>
-</ul>
-</details>
-
-<details>
 <summary><b> Komorebi</b></summary>
-
-
 <ul>
 <li>Install <a href="https://github.com/LGUG2Z/komorebi/releases">Komorebi</a></li>
 <li><a href="Komorebi/"><code>Komorebi/</code></a></li>
