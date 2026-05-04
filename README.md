@@ -36,7 +36,7 @@ Cherry-pick what you need. Backup before applying.
 <br>
 <ul>
   <li>Install <a href="https://github.com/glzr-io/glazewm/releases">GlazeWM</a></li>
-  <li><a href=".config/glazewm/config.yaml"><code>.config/glazewm/config.yaml</code></a></li>
+  <li><a href="Glazewm/config.yaml"><code>Glazewm/config.yaml</code></a></li>
 </ul>
 </details>
 
@@ -46,7 +46,7 @@ Cherry-pick what you need. Backup before applying.
 <p><b>NOTE:</b> Requires a Nerd Font (JetBrainsMono Nerd Font recommended).</p>
 <ul>
   <li>Install <a href="https://github.com/amnweb/yasb/releases">YASB</a></li>
-  <li><a href="yasb/"><code>.config/yasb/</code></a></li>
+  <li><a href="yasb/"><code>yasb/</code></a></li>
 </ul>
 </details>
 
@@ -104,8 +104,7 @@ Cherry-pick what you need. Backup before applying.
 <br>
 <ul>
   <li>Install <a href="https://www.flowlauncher.com">Flow Launcher</a></li>
-  <li><a href="FlowLauncher/"><code>FlowLauncher/
-  </code></a></li>
+  <li><a href="FlowLauncher/"><code>FlowLauncher/</code></a></li>
 </ul>
 </details>
 
@@ -121,7 +120,7 @@ Cherry-pick what you need. Backup before applying.
       <li>Taskbar Styler</li>
     </ul>
   </li>
-  <li><a href="windhawk/"><code>windhawk/</code></a></li>
+  <li><a href="Windhawk/"><code>Windhawk/</code></a></li>
   <li>Paste configs via: <b>Mod → Advanced → Mod Settings → Load</b></li>
 </ul>
 </details>
