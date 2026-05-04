@@ -16,7 +16,7 @@ and development environment tweaks.
   <li><b>OS:</b> <a href="https://www.microsoft.com/windows/windows-11">Windows 11</a>  <a href="https://learn.microsoft.com/en-us/windows/wsl/">WSL2</a> </li>
   <li><b>WM:</b><a href="https://github.com/LGUG2Z/komorebi">Komorebi</a> / <a href="https://github.com/glzr-io/glazewm">GlazeWM</a></li>
   <li><b>Shell:</b> <a href="https://learn.microsoft.com/en-us/powershell/">PowerShell</a> / <a href="https://zsh.sourceforge.io/">zsh</a> </li>
-  <li><b>Terminal Emulator:</b> <a href="https://github.com/microsoft/terminal">Windows Terminal</a> &gt;_</li>
+  <li><b>Terminal Emulator:</b> <a href="https://github.com/microsoft/terminal">Windows Terminal</a> </li>
   <li><b>Panel:</b> <a href="https://github.com/amnweb/yasb">YASB</a> </li>
   <li><b>Text Editor:</b> <a href="https://neovim.io/">Neovim</a> / <a href="https://code.visualstudio.com/">VS Code</a> </li>
   <li><b>App Launcher:</b> <a href="https://www.flowlauncher.com/">Flow Launcher</a> </li>
