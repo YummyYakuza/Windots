@@ -16,21 +16,22 @@ and development environment tweaks.
 <ul>
   <li>JetBrains Mono Nerd Font</li>
 </ul>
-## ✨ Features
+</p><hr>
+##  Features
 
-- 🪟 **GlazeWM/Komorebi** setup
-- ❄️ Beautiful **YASB** config
-- 🌸 Minimal **VSCode** and **Zed** setups
-- \>_ Sleek **Windows Terminal** config
-- 🐚 **PowerShell** config
-- ⚙️ Minimal **Fastfetch** config
-- 🚀 **Flow Launcher** config
-- 🦅 Themeable **Start menu, Taskbar and Notification center**
-- 💫 Beautiful [**Wallpapers**](https://github.com/YummyYakuza/Wallpapers)
-- 🐈 [**Catppuccin**](https://github.com/catppuccin) everywhere
+-  **GlazeWM/Komorebi** setup
+-  Beautiful **YASB** config
+-  Minimal **VSCode** and **Zed** setups
+-  Sleek **Windows Terminal** config
+-  **PowerShell** config
+-  Minimal **Fastfetch** config
+-  **Flow Launcher** config
+-  Themeable **Start menu, Taskbar and Notification center**
+-  Beautiful [**Wallpapers**](https://github.com/YummyYakuza/Wallpapers)
+-  [**Catppuccin**](https://github.com/catppuccin) everywhere
 
 ---
-</p><hr><h2>Tools Used</h2>
+<hr><h2>Tools Used</h2>
 
 <ul>
   <li><b>OS:</b> <a href="https://www.microsoft.com/windows/windows-11">Windows 11</a>  <a href="https://learn.microsoft.com/en-us/windows/wsl/">WSL2</a> </li>
