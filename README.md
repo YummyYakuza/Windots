@@ -17,7 +17,7 @@ and development environment tweaks.
   <li>JetBrains Mono Nerd Font</li>
 </ul>
 </p><hr>
-##  Features
+ <h2>Features</h2>
 
 -  **GlazeWM/Komorebi** setup
 -  Beautiful **YASB** config
@@ -31,7 +31,7 @@ and development environment tweaks.
 -  [**Catppuccin**](https://github.com/catppuccin) everywhere
 
 ---
-<hr><h2>Tools Used</h2>
+<h2>Tools Used</h2>
 
 <ul>
   <li><b>OS:</b> <a href="https://www.microsoft.com/windows/windows-11">Windows 11</a>  <a href="https://learn.microsoft.com/en-us/windows/wsl/">WSL2</a> </li>
