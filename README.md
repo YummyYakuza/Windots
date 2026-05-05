@@ -16,6 +16,20 @@ and development environment tweaks.
 <ul>
   <li>JetBrains Mono Nerd Font</li>
 </ul>
+## ✨ Features
+
+- 🪟 **GlazeWM/Komorebi** setup
+- ❄️ Beautiful **YASB** config
+- 🌸 Minimal **VSCode** and **Zed** setups
+- \>_ Sleek **Windows Terminal** config
+- 🐚 **PowerShell** config
+- ⚙️ Minimal **Fastfetch** config
+- 🚀 **Flow Launcher** config
+- 🦅 Themeable **Start menu, Taskbar and Notification center**
+- 💫 Beautiful [**Wallpapers**](https://github.com/YummyYakuza/Wallpapers)
+- 🐈 [**Catppuccin**](https://github.com/catppuccin) everywhere
+
+---
 </p><hr><h2>Tools Used</h2>
 
 <ul>
