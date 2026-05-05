@@ -6,6 +6,7 @@
 This repository contains my dotfiles and configuration setup for Windows 11.
 It includes system customization tools, launcher configs, terminal settings,
 and development environment tweaks.
+  <hr>
  <h2> Preview</h2><p align="center">
   <img src="screenshots/Screenshot01.jpg" width="700"><br><br>
   <img src="screenshots/Screenshot02.jpg" width="700"><br><br>
@@ -135,6 +136,5 @@ Cherry-pick what you need. Backup before applying.
 </ul>
 </details>
 
-<hr>
 </p><hr><h2> License</h2>
 <p>MIT License</p>
