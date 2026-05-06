@@ -16,13 +16,6 @@
   <img src="https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/palette/macchiato.png" width="400" alt="macchiato bar" />
 </p>
 
-<div align="center">
-<p>
-<a href="https://github.com/YummyYakuza/Windots/stargazers"><img src="https://img.shields.io/github/stars/swopnil7/windots?style=for-the-badge&logo=starship&color=89B4FA&logoColor=89B4FA&labelColor=1E1E2E" alt="stars"></a>&nbsp;&nbsp;
-<a href="https://github.com/YummyYakuza/Windots/"><img src="https://img.shields.io/github/repo-size/swopnil7/windots?style=for-the-badge&logo=hyprland&logoColor=F38BA8&label=Size&labelColor=1E1E2E&color=F38BA8" alt="REPO SIZE"></a>&nbsp;&nbsp;
-<a href="https://github.com/YummyYakuza/Windots/commits/main/"><img src="https://img.shields.io/github/last-commit/swopnil7/windots?style=for-the-badge&logo=github&logoColor=A6E3A1&label=Last%20Commit&labelColor=1E1E2E&color=A6E3A1" alt="Last Commit"></a>&nbsp;&nbsp;
-<a href="https://github.com/YummyYakuza/Windots/blob/main/LICENSE"><img src="https://img.shields.io/github/license/swopnil7/windots?style=for-the-badge&color=FAB387&logoColor=FAB387&labelColor=1E1E2E" alt="LICENSE"></a>&nbsp;&nbsp;
-</p>
 </div>
 <h1 align="center"> Windows 11 Dotfiles</h1><p align="center">
   Personal configuration files for my Windows 11 setup.<br>
