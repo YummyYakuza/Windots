@@ -176,8 +176,7 @@ Cherry-pick what you need. Backup before applying.
 
 Special mention to the following resources and projects that were especially helpful during setup:
 
-- [**pivoshenko**](https://github.com/pivoshenko/catppuccin-startpage) for the clean and aesthetic **browser startpage** 🌐
-- [**GlazeWM**](https://github.com/glzr-io/glazewm) for delivering an outstanding **tiling window manager** that boosts productivity ✨
-- [**YASB**](https://github.com/amnweb/yasb) for a **customizable and feature-rich status bar** that fits seamlessly into the setup 🚀
-- [**Catppuccin**](https://catppuccin.com) for creating the **best color scheme** ever 🖌️
-- [**Ashish**](https://github.com/ashish0kumar) for some of the **file configs** & **readme design** 🤍
+- [**GlazeWM**](https://github.com/glzr-io/glazewm) for delivering an outstanding **tiling window manager** that boosts productivity 
+- [**YASB**](https://github.com/amnweb/yasb) for a **customizable and feature-rich status bar** that fits seamlessly into the setup 
+- [**Catppuccin**](https://catppuccin.com) for creating the **best color scheme** ever 
+- [**Ashish**](https://github.com/ashish0kumar) and [**Swopnil**](https://github.com/swopnil7) for some of the **file configs** & **readme design**
