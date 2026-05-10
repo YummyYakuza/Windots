@@ -19,7 +19,7 @@
 </div>  
 <h1 align="center">🪟 Windows 11 Dotfiles</h1><p align="center">  
   Personal configuration files for my Windows 11 setup.<br>  
-  Focused on customization, productivity, and making Windows slightly less painful 💀  
+  Focused on customization, productivity, and making Windows slightly less painful 
 </p><hr><h2>📌 Overview</h2>  
 <p>  
 This repository contains my dotfiles and configuration setup for Windows 11.  
