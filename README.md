@@ -30,7 +30,12 @@ and development environment tweaks ⚙️
   <img src="screenshots/Screenshot01.jpg" width="700"><br><br>  
   <img src="screenshots/Screenshot02.jpg" width="700"><br><br>  
   <img src="screenshots/Screenshot03.jpg" width="700"><br><br>  
-  <img src="screenshots/Screenshot04.jpg" width="700">   
+  <img src="screenshots/Screenshot04.jpg" width="700"><br><br>  
+  <img src="screenshots/Screenshot05.jpg" width="700"><br><br>
+  <img src="screenshots/Screenshot06.jpg" width="700"><br><br>
+  <img src="screenshots/Screenshot07.jpg" width="700"><br><br>
+  <img src="screenshots/Screenshot08.jpg" width="700"><br><br>
+  <img src="screenshots/Screenshot09.jpg" width="700"><br><br>
 <h2>📦 Prerequisites</h2>  
 <ul>  
   <li>JetBrains Mono Nerd Font 🔤</li>  
